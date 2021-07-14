@@ -28,6 +28,7 @@ public class UpdateServiceImpl implements UpdateService {
     //int i = 1/0;
     testService.error();
     String user = JSON.toJSONString(update);
+    System.out.println("update success");
     return user;
   }
 
